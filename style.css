@@ -1,3 +1,9 @@
+selector{
+    properti: nilai;
+    properti2: nilai;
+}
+
 h2{
     color: red;
+    font-size: 30px;
 }
