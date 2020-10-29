@@ -1,6 +1,14 @@
+body{/*
+    background-color: #fff4e6;
+    background-image: url("Picture/Logo_html_css_js.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:;
+    */
+    background:  #fff4e6 url("Picture/Logo_html_css_js.png") no-repeat center;
+}
 .menu{
     color: black;
-    font-size;
 }
 
 #th2{
@@ -9,6 +17,6 @@
 }
 
 #th2_1{
-    color: rgb(0, 175, 123);
+    color: rgb(2, 185, 209);
     font-size: 20px;
 }
