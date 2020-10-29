@@ -7,9 +7,26 @@
     </head>
     <body>
 
+<!--Ada 3 cara menghubungkan file css
+        - Inline   : Langsung pada tag
+        - internal : file html yang sama
+        - eksternal: File css sendiri 
+-->
+
+<!--Internal-->
+<style>
+    h1{
+        color:rgb(0, 47, 255);
+    }
+</style>
+
+<!--Eksternal-->
+
+<link rel="stylesheet" href="style.css">
+
         <!-- Menu website -->
         <div>
-            <a href="../Dasar-dasar HTML.html">HOME</a>
+            <a href="../Dasar-dasar HTML.html" style="color:black ">HOME</a> <!--Inline-->
             <a href="menuWebsite/Kontak.html">KONTAK</a>
             <a href="menuWebsite/Javascript.html">JAVASCRIP</a>
             <a href="menuWebsite/php.html">PHP</a>
