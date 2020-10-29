@@ -7,13 +7,34 @@ body{/*
     */
     background:  #fff4e6 url("Picture/Logo_html_css_js.png") no-repeat center;
 }
+
 .menu{
     color: black;
 }
 
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#text_long1{
+    text-align: justify;
+    text-indent: 30px; /*memberi spasi pada awal text*/
+}
+#text_long2{
+    text-align: justify;
+    text-indent: 30px; 
+}
+#text_long3{
+    text-align: justify;
+    text-indent: 30px; 
+}
+
 #th2{
     color: #4a00d3;
-    font-size: 30px;
+    font-size: 25px;
+    text-align: center;
 }
 
 #th2_1{
