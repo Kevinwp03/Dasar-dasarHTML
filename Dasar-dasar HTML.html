@@ -31,26 +31,47 @@
                 Apa bedanya dari setiap versi tersebut?<br>
                 <em>penambahan &amp; pengurangan… </em></p>
             </div>
-
+            <br>
         <!--Membuat form-->
-        <br>
+        <fieldset>
+            <legend>Name and Message</legend>
+            <form>
+                <label for="User_name">Nama &nbsp &nbsp </label>
+                <input type="teks" placeholder="User Name" value="Nama Anda" id="User_name"><br>
+                <label for="message">Message</label>
+                <textarea cols="50" rows="10" id="message">Message</textarea><br><br>
+        </fieldset><br>
 
-        <form>
-            <label for="User_name">Nama &nbsp &nbsp </label>
-            <input type="teks" placeholder="User Name" value="Nama Anda" id="User_name"><br>
-            <label for="message">Message</label>
-            <textarea cols="50" rows="10" id="message">Message</textarea><br>
-            <label>Hoby</label><br>
-            <input type="checkbox" name="hoby_User" value="0"> Drawing
-            <input type="checkbox" name="hoby_User" value="1"> Writing
-            <input type="checkbox" name="hoby_User" value="2"> Singing
-            <input type="checkbox" name="hoby_User" value="3"> Reading <br>
-            <label>Gender</label><br>
-            <input type="radio" name="gender" value="0"> Male <br>
-            <input type="radio" name="gender" value="1"> Famale
+        <fieldset>
+            <legend>Pilihan data</legend>
+                <label>Hoby</label><br>
+                <input type="checkbox" name="hoby_User" value="0"> Drawing
+                <input type="checkbox" name="hoby_User" value="1"> Writing
+                <input type="checkbox" name="hoby_User" value="2"> Singing
+                <input type="checkbox" name="hoby_User" value="3"> Reading <br><br>
 
+                <label>Gender</label><br>
+                <input type="radio" name="gender" value="0"> Male <br>
+                <input type="radio" name="gender" value="1"> Famale
+                <br><br>
 
-        </form>
+                <label>Study</label>
+                <select>
+                    <optgroup label="Front-end">
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                        <option value="js">Javascript</option>
+                    </optgroup>
+
+                    <optgroup label="Back-end">
+                        <option value="php">PHP</option>
+                        <option value="db">Database</option>
+                    </optgroup>
+                </select> <br>
+
+                <input type="submit" value="Send Data">
+            </fieldset>
+            </form>
 
         <br>
 <!--Memubuat Table HTML-->
