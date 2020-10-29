@@ -1,9 +1,14 @@
-selector{
-    properti: nilai;
-    properti2: nilai;
+.menu{
+    color: black;
+    font-size;
 }
 
-h2{
-    color: red;
+#th2{
+    color: #4a00d3;
     font-size: 30px;
+}
+
+#th2_1{
+    color: rgb(0, 175, 123);
+    font-size: 20px;
 }
