@@ -17,7 +17,7 @@ h1{
     text-align: center;
     text-decoration: underline;
     text-transform: uppercase;
-    
+
 }
 
 #text_long1{
@@ -42,4 +42,26 @@ h1{
 #th2_1{
     color: rgb(2, 185, 209);
     font-size: 20px;
+}
+
+/*Kondiasi biasa*/
+.menu:link{
+    background: greenyellow;
+    color: white;
+}
+/*kondisi setelah dikunjungi*/
+.menu:visited{
+    background : yellow;
+
+}
+
+/* kondisi hover- mouse berada di atasnya*/
+.menu:hover{
+    background:blue
+
+}
+/* sedang di klik*/
+
+.menu:active{
+    background: gray;
 }
