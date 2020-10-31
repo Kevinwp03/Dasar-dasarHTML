@@ -17,12 +17,8 @@ h1{
     text-align: center;
     text-decoration: underline;
     text-transform: uppercase;
-    display: inline; /*display inline*/
-}
+    display: none; 
 
-/*display block*/
-a{
-    display:block; /*display block*/
 }
 
 #text_long1{
@@ -39,7 +35,6 @@ a{
     color: #4a00d3;
     font-size: 30px;
     text-align: center;
-    display: inline;
 }
 
 #text_long2{
@@ -52,11 +47,11 @@ a{
     text-indent: 30px; 
 }
 
-
 #th2_1{
     color: rgb(2, 185, 209);
     font-size: 20px;
 }
+
 
 /*display inline block*/
 .menu{
