@@ -17,7 +17,12 @@ h1{
     text-align: center;
     text-decoration: underline;
     text-transform: uppercase;
+    display: inline; /*display inline*/
+}
 
+/*display block*/
+a{
+    display:block; /*display block*/
 }
 
 #text_long1{
@@ -28,43 +33,52 @@ h1{
     background: yellow;
     max-width: 80%;
     max-height: 50%;
-
-}
-#text_long2{
-    text-align: justify;
-    text-indent: 30px; 
-}
-#text_long3{
-    text-align: justify;
-    text-indent: 30px; 
 }
 
 #th2{
     color: #4a00d3;
     font-size: 30px;
     text-align: center;
+    display: inline;
 }
+
+#text_long2{
+    text-align: justify;
+    text-indent: 30px; 
+}
+
+#text_long3{
+    text-align: justify;
+    text-indent: 30px; 
+}
+
 
 #th2_1{
     color: rgb(2, 185, 209);
     font-size: 20px;
 }
 
+/*display inline block*/
+.menu{
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    text-decoration: none;
+}
+
 /*Kondiasi biasa*/
 .menu:link{
-    background: greenyellow;
-    color: white;
+    background: grey;
+    color: red;
 }
-/*kondisi setelah dikunjungi*/
+/*kondisi setelah dikunjungi (bermasalah)*/
 .menu:visited{
-    background : yellow;
-
+    color: #ffffff;
 }
 
 /* kondisi hover- mouse berada di atasnya*/
 .menu:hover{
-    background:blue
-
+    background : greenyellow;
 }
 /* sedang di klik*/
 
