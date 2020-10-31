@@ -6,6 +6,7 @@ body{/*
     background-attachment:;
     */
     background:  #fff4e6 url("Picture/Logo_html_css_js.png") no-repeat center;
+    font-family: sans-serif;
 }
 
 .menu{
@@ -16,6 +17,7 @@ h1{
     text-align: center;
     text-decoration: underline;
     text-transform: uppercase;
+    
 }
 
 #text_long1{
@@ -33,7 +35,7 @@ h1{
 
 #th2{
     color: #4a00d3;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
 }
 
