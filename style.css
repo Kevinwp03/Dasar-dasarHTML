@@ -23,6 +23,12 @@ h1{
 #text_long1{
     text-align: justify;
     text-indent: 30px; /*memberi spasi pada awal text*/
+    width: 50%;
+    height: 150px;
+    background: yellow;
+    max-width: 80%;
+    max-height: 50%;
+
 }
 #text_long2{
     text-align: justify;
