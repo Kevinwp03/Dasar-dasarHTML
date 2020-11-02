@@ -1,3 +1,6 @@
+*{ /*artinya semua dalam html*/
+    margin: 3px;
+}
 body{/*
     background-color: #fff4e6;
     background-image: url("Picture/Logo_html_css_js.png");
@@ -52,13 +55,22 @@ h1{
     font-size: 20px;
 }
 
-
+#menu_wrap{
+    /*margin : top right bottom left;*/
+    margin: 10px 0px 40px 0px;
+}
 /*display inline block*/
 .menu{
     display: inline-block;
     height: 50px;
     width: 100px;
     text-decoration: none;
+
+    /*border-width: 3px;
+    border-style: solid;
+    border-color: black;*/
+    
+    border: 2px solid black;
 }
 
 /*Kondiasi biasa*/
