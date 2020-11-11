@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- baris pertama merupakan HTML-->
+<html>
+
+    <head>
+        <title>BELAJAR CSS</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+
+    <body>
+        <!-- Menu website -->
+        <div id="menu_member">
+            <a href="../Dasar-dasar HTML.html" >HOME</a>
+            <a href="menuWebsite/Kontak.html" >KONTAK</a>
+            <a href="menuWebsite/Javascript.html" >JAVASCRIP</a>
+            <a href="menuWebsite/php.html" >PHP</a>
+            <a href="menuWebsite/About.html" >ABOUT</a>
+        </div>
+
+        <div>
+            <!--INGAT dalam tag have a 2 type yaitu : block dan inline-->
+            <h1> Belajar CSS: Pengertian, Peran, Fungsi, dan Macamnya </h1>
+            <h2 id="th2">Apa itu css? </h2>
+            <p id="text_long1">CSS (Cascade Style Sheet) merupakan sebuah bahasa untuk mengaturtampilan web sehingga terlihat lebih menarik dan indah. Dengan CSS, kita dapat mengatur layout (tata letak), warna, font, garis, dan lain-lain.</p>
+            <h2 id="th2_1"><b>Variasi atau versi <i>CSS</i> </b></h2>
+                Sejak awal diperkenalkan <b>CSS</b> memiliki beberapa variasi:<br>
+                CSS 1: adalah versi pertama (17 Desember 1996)<br>
+                CSS 2: adalah versi ke-2 (Mei 1998)<br>
+                CSS 2.1: (7 juni 2011)<br>
+                CSS 3: (2012)<br>
+                CSS 4: masih dalam pengembangan.<br>
+                Apa bedanya dari setiap versi tersebut?<br>
+                <em>penambahan &amp; pengurangan… </em></p>
+            </div>
+            <br>
+
+        <fieldset>
+            <legend>Pilihan data</legend>
+                <label>Hoby</label><br>
+                <input type="checkbox" name="hoby_User" value="0"> Drawing
+                <input type="checkbox" name="hoby_User" value="1"> Writing
+                <input type="checkbox" name="hoby_User" value="2"> Singing
+                <input type="checkbox" name="hoby_User" value="3"> Reading <br><br>
+
+                <label>Gender</label><br>
+                <input type="radio" name="gender" value="0"> Male <br>
+                <input type="radio" name="gender" value="1"> Famale
+                <br><br>
+
+                <label>Study</label>
+                <select>
+                    <optgroup label="Front-end">
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                        <option value="js">Javascript</option>
+                    </optgroup>
+
+                    <optgroup label="Back-end">
+                        <option value="php">PHP</option>
+                        <option value="db">Database</option>
+                    </optgroup>
+                </select> <br>
+
+                <input type="submit" value="Send Data">
+            </fieldset>
+            </form>
+
+        <br>
+<!--Memubuat Table HTML-->
+        <div>
+            <p><b>Membuat table</b></p>
+            <table border="1">
+                <caption>Variasi CSS</caption>
+                <tr>
+                    <th>Name</th>
+                    <th>Version</th>
+                </tr>
+                <tr>
+                    <td>CSS 1</td>
+                    <td>Versi pertama</td>
+                </tr>
+                <tr>
+                    <td>CSS 2</td>
+                    <td>Versi kedua (1998)</td>
+                </tr>
+                <tr>
+                    <td>CSS 2.2</td>
+                    <td>Versi kedua Rilis(2011)</td>
+                </tr>
+                <tr>
+                    <td>CSS 3</td>
+                    <td>Versi Ketig(2012)a</td>
+                </tr>
+                <td>CSS 4</td>
+                <td>masih dalam tahap pengembangan</td>
+            </tr>
+            </table>
+        </div>
+
+        <!--List in HTML-->
+        <ul> <!--List yang tidak berurut -->
+            <li>Tim berners-lee</li>
+            <li>Rasmus Lerdorf</li>
+        </ul>
+
+        <ol><!--List berurut (otomatis)-->
+            <li>Tim beners-lee</li>
+            <li>Rasmus Lerdorf</li>
+        </ol>
+        
+        <dl><!--Data list-->
+            <dt>Tim Beners-lee</dt>
+            <dd id="text_long2">Tim Berners-Lee menciptakan HTML pada tahun 1989 sebagai cara sederhana namun efektif untuk mengkodekan dokumen elektronik. Bahkan, tujuan awal dari web browser adalah untuk melayani pembaca untuk membuka dokumen berformat HTML.</dd>
+            <dt>Rasmus Lerdorf</dt>
+            <dd id="text_long3"> PHP pertama kali dibuat oleh Rasmus Lerdorf pada tahun 1995. Pada waktu itu PHP masih bernama Form Interpreted (FI), yang wujudnya berupa sekumpulan skrip yang digunakan untuk mengolah data formulir dari web.</dd>
+        </dl>
+        <p>&copy; Kevin Williams Permana &copy;</p>
+
+    </body>
+</html>

@@ -94,3 +94,13 @@ h1{
 .menu:active{
     background: blue;
 }
+
+/*--- mengatur posisi di css ---*/
+/*--- 1.static, 2.void, 3. absolute, 4.fixed
+/*  1.static : mengikuti urutan (order) sesuai di HTML*/
+
+/* 2. relative */
+#menu_member {
+    position: relative;
+    left: 650px;
+}
